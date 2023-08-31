@@ -26,7 +26,13 @@ Route::get('/transaksi', function () {
     return view('transaksi');
 });
 
+
 Route::get('/model', function () {
     return view('model');
+});
+
+
+Route::get('/baru', function () {
+    return view('baru');
 });
 
